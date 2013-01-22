@@ -3,6 +3,8 @@ Editable Image Field
 
 **== Please note, this is still being updated and uploaded. It's ported out of an application I built, so I'm still extracting tests and verifying it can be just dropped into an application ==**
 
+To use, include the 'editable-image-field.js' file, and make sure the 'uploadify' folder is in your site root. Also, you'll need to include the jquery.uploadify-3.1.min.js and uploadify.css files in the pages where you want to use the image field.
+
 Simple example to get started, more coming soon:
 
     <label>Logo</label>
