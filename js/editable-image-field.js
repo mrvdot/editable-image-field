@@ -1,4 +1,4 @@
-angular.module('editable-image-field',['mvd-uploadify','mvd-uploadify.directives'])
+angular.module('editable-image-field',['mvd-uploadify'])
   .directive('editableImageField',[function() {
     var tpl = '<div class="preview">' + 
       '<span class="clear" title="Clear image" ng-click="clearImage()">&times;</span>'+
@@ -47,7 +47,7 @@ angular.module('editable-image-field',['mvd-uploadify','mvd-uploadify.directives
     }
   }]);
 
-angular.module('mvd-uploadify.directives',[])
+angular.module('mvd-uploadify',[])
   .directive('uploadify',[function() {
     return {
       link : function($scope,$el,$attrs) {
